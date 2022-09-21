@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.bg {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: #150b3e;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 25%;
+}
+.profile-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-icon {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 40px;
+  width: 40px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.name {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 20px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.your-balance {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #585076;
+}
+
+.balance {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+.in-rupees {
+  align-self: flex-end;
+  color: #585076;
+  font-size: 15px;
+  margin-top: 0px;
+}
+.withdraw {
+  color: #d4d2db;
+}
+.choose-sum {
+  font-family: 'Roboto';
+  color: #585076;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  padding-right: 0px;
+}
